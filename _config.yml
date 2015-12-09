@@ -1,14 +1,26 @@
-layout_spectrum: 0.9595745
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.7127659
 color:
-  saturation: 0.002445489
-  lightness: 0.4688726
-  brandStrength: 0.834984
-  rhythmicContrast: 0.4661379
+  saturation: 0
+  lightness: 1
+  brandStrength: 0.4851064
   brandColors:
     - '#71A7FE'
     - '#399AE7'
     - '#3B407C'
     - '#547AB1'
     - '#CEAFC0'
-typography_spectrum: 0.3092725
+  rhythmicContrast: 0.4661379
+layout_spectrum: 0.9595745
 name: Skyes
